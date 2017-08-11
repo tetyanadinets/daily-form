@@ -49,6 +49,10 @@ body{
 	color: #ea355a;
 	font-size: 13px;
 	text-decoration: none;
+
+}
+.df-main__target:hover{
+	text-decoration: underline;
 }
 /*form*/
 .df-autorisation{
@@ -63,6 +67,7 @@ input{
 	padding-left: 15px;
 	width: 100%;
 	margin: 0 auto 15px;
+	outline-color: #bd1962;
 }
 .df-autorisation__fname{
 	display: inline-block;
@@ -85,8 +90,15 @@ input{
 	font-weight: 700;
 	text-align: center;
 	margin-bottom: 20px;
+	cursor: pointer;
 }
-
+.df-singup:hover{
+	background-color: #FFF;
+	border: 2px solid #bd1962;
+	color: #ea355a;
+	box-shadow: none;
+	cursor: pointer;
+}
 .df-main__footer{
 	margin-bottom: 30px;
 }
